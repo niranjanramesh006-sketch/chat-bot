@@ -7,7 +7,7 @@ function App() {
 
   const sendMessage = async () => {
   try {
-    const response = await fetch("https://unseemly-tackiness-spearfish.ngrok-free.dev/chat", {
+    const response = await fetch("https://chota-ai.onrender.com/chat", {
       method: "POST",   
       headers: {
         "Content-Type": "application/json",
